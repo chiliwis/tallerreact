@@ -1,13 +1,10 @@
-import MiComponente from "./Components/MiComponente";
-import Navbar from "./Components/Navbar";
+import AppRouter from "./routes/AppRouter";
 
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <h1>Proyecto react limpio</h1>
-   <MiComponente/>
+    <AppRouter/>
     </>
    );
 }
